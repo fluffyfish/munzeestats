@@ -1,0 +1,64 @@
+body {
+    background-color: lightblue;
+    background-image: url("fluffyfish_pathtag.jpg") , url("munzee_512.png") ;
+    background-position: right bottom, left top ;
+    background-repeat: no-repeat, repeat;
+    background-size: 83px 83px, 80px 80px;
+    color: black;
+}
+    /* unvisited link */
+a:link {
+    color: white;
+    font-size: 2em;
+    background-color: #B2B2B2;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+    font-size: 2em;
+    background-color: #B2B2B2;
+}
+
+p {
+    color: black;
+    font-size: 3em;
+    background-color: #B2B2B2;
+}
+
+h1 {
+    color: navy;
+    margin-left: 20px;
+}
+
+table, th, td {
+   border: 1px solid black;
+   background-color: white;
+   table-layout: auto;
+}
+
+td {
+    height: 50px;
+    vertical-align: centre;
+    text-align: centre;
+    padding: 15px;
+}
+
+tr {
+    height: 50px;
+    vertical-align: centre;
+    text-align: centre;
+}
+
+th {
+    text-align: left;
+    padding: 15px;
+}
+
+input[type=submit] {
+    width: 20em;  height: 5em;
+}
+
+input[type=text] {
+    width: 20em;  height: 5em;
+}
